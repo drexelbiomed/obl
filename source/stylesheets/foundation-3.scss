@@ -2,7 +2,7 @@
 // Vendor
 // ==================
 
-@import "normalize/normalize";
+@import "normalize.css/normalize";
 @import "foundation-3/stylesheets/foundation";
 @import "jquery.bxslider.scss";
 
@@ -23,8 +23,8 @@
 // ================================
 .ie8 {
   .bx-viewport { border: 0px !important; }
-  .top-bar-section ul li.has-dropdown { 
-    background-color: transparent !important; 
+  .top-bar-section ul li.has-dropdown {
+    background-color: transparent !important;
     a {
       &.active, &:hover {
         background-color: transparent !important;
@@ -109,7 +109,7 @@
 @mixin font-stack {
   font-family: FuturaBold, sans-serif;
   text-transform: uppercase;
-} 
+}
 
 body {
   background-image:  image-url("wide.jpg");
@@ -288,7 +288,7 @@ nav.nav-sidebar {
 
         &.active, &:hover {
           background-color: $drexel-yellow;
-        }   
+        }
       }
     }
   }
@@ -305,7 +305,7 @@ footer.footer {
   img.live-it {
     margin-top: 20px;
   }
-  
+
   ul.inline {
     margin: 28px 0 0;
 
@@ -324,7 +324,7 @@ footer.footer {
       }
     }
   }
-  
+
   ul.inline.social {
     margin: 0px;
 
@@ -375,21 +375,21 @@ footer.footer {
 }
 
 
-.social-blue .duicon-facebook { 
-  background-position:-54px -247px; 
+.social-blue .duicon-facebook {
+  background-position:-54px -247px;
 }
-.social-blue .duicon-twitter { 
-  background-position:-84px -247px; 
+.social-blue .duicon-twitter {
+  background-position:-84px -247px;
 }
-.social-blue .duicon-flickr { 
-  background-position:-114px -247px; 
+.social-blue .duicon-flickr {
+  background-position:-114px -247px;
 }
-.social-blue .duicon-youtube { 
-  background-position:-144px -247px; 
+.social-blue .duicon-youtube {
+  background-position:-144px -247px;
 }
 
 /* full clearfix */
-/* add to floating elements which shall clear floating after themselves */ 
+/* add to floating elements which shall clear floating after themselves */
 /* http://cthedot.de/static/xbrowsertests/floatx.html */
 * html .clearfix {
   height: 1%; /* IE5-6 */
