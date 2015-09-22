@@ -1,37 +1,25 @@
 - title: Page 1
   url: page-1
   sub_pages:
-    - title: Overview
+    - title: Overview 1
       url: overview
 - title: Page 2
   url: page-2
   sub_pages:
-    - title: Sub page 4 has a really long multi-line title
-      url: sub-page-4
+    - title: Overview 2
+      url: overview
 - title: Page 3
   url: page-3
   sub_pages:
-    - title: Sub page 7
-      url: sub-page-7
-    - title: Sub page 8
-      url: sub-page-8
-    - title: Sub page 9
-      url: sub-page-9
+    - title: Overview 3
+      url: overview
 - title: Page 4
   url: page-4
   sub_pages:
-    - title: Sub page 10
-      url: sub-page-10
-    - title: Sub page 11
-      url: sub-page-11
-    - title: Sub page 12
-      url: sub-page-12
+    - title: Overview 4
+      url: overview
 - title: About
   url: about
   sub_pages:
-    - title: Sub page 13
-      url: sub-page-13
-    - title: Sub page 14
-      url: sub-page-14
-    - title: Sub page 15
-      url: sub-page-15
+    - title: Overview 5
+      url: overview
