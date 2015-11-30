@@ -1,25 +1,20 @@
-- title: Page 1
-  url: page-1
+- title: People
+  url: people
   sub_pages:
-    - title: Overview 1
+    - title: Overview
       url: overview
-- title: Page 2
-  url: page-2
+- title: Research
+  url: research
   sub_pages:
-    - title: Overview 2
+    - title: Research Overview
       url: overview
-- title: Page 3
-  url: page-3
+- title: Publications
+  url: publications
   sub_pages:
-    - title: Overview 3
-      url: overview
-- title: Page 4
-  url: page-4
+    - title: Publications List
+      url: list
+- title: Contact
+  url: contact
   sub_pages:
-    - title: Overview 4
-      url: overview
-- title: About
-  url: about
-  sub_pages:
-    - title: Overview 5
-      url: overview
+    - title: Contact Us
+      url: information

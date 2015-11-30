@@ -25,3 +25,5 @@ source/bower_components/
 data/ftp.yml
 
 .ruby-version
+
+*.pptx

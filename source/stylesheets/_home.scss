@@ -28,7 +28,7 @@
   }
 
 }
-a.more-link {
+.more-link {
   font-size: 12px;
   text-transform: uppercase;
   margin-top: 20px;
@@ -39,4 +39,15 @@ a.more-link {
   height: 22px;
   line-height: 14px;
   background: image-url("sprite.png") no-repeat scroll 0 -422px;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.more-link-blue {
+  @extend .more-link;
+  color: $drexel-blue;
+ &:hover {
+    color: $drexel-blue;
+ }
 }
