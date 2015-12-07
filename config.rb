@@ -81,6 +81,7 @@ page "index.html", :layout => "home-page"
 
 # Reload the browser automatically whenever files change
 activate :livereload
+
 activate :directory_indexes
 
 set :http_prefix, "/"

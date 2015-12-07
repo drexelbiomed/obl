@@ -1,0 +1,46 @@
+---
+title: Pediatric Spine and Rib Cage Deformities
+---
+
+%h2=current_page.data.title
+
+%p
+	Scoliosis is a complex and progressive three-dimensional (3D) spine and rib cage deformity that affects five to nine million individuals in the United States. 65% of these cases are children between the ages of 10 and 18 years with unknown causation. Severe deformity progression causes significant chronic problems associated with growth restriction, breathing difficulties, degenerative spine disease and pain. Currently, there is a lack of evidence-based decision making for surgical intervention and medical device development to treat scoliotic deformities. Research in our lab has focused on both fundamental and applied studies that have generated scientific knowledge to inform the development of clinical tools and guidelines. The long-term goal of our research activities is to develop computational modeling tools that can be used by physicians to monitor and predict the progression of various thoracic deformity conditions, and to guide and test novel pre-treatment evaluations and interventions.  Some highlights of our research activities are listed below:
+%p
+	Using clinical Computed Tomography (CT) and X-ray images, we have quantified the normative thoracic spine geometry and growth in male and female children. This comprehensive study provides the first reference dataset for determining growth rates and growth remaining in the individual pediatric thoracic vertebrae.
+.panel
+	.figure
+		=image_tag "t1.png", 'data-alt' => "#{http_prefix}images/t1.gif"
+	%p
+	.figure
+		=image_tag "t7.png", 'data-alt' => "#{http_prefix}images/t7.gif"
+	%p
+	.figure
+		=image_tag "t12.png", 'data-alt' => "#{http_prefix}images/t12.gif"
+	%p
+	%p.text-center Throacic Vertebral Shape with Age
+
+%p
+	Created age- and gender-based statistical average-shape models of the pediatric spine. Ongoing research is focused on developing scoliosis deformity-specific average shape models of the spine and rib cage.
+.panel
+	=image_tag "thoracic-spine-shape-models.png"
+	%p
+	%p.text-center Thoracic Spine Shape Models
+%p
+	Characterized the pathoanatomy of the rib hump deformity (i.e. one-sided protrusion of the ribcage) observed in scoliosis. Our findings suggest that the rib hump is the result of positional differences between the left and right ribs, rather than structural differences.
+.panel.text-center
+	=image_tag "ribcages.jpg"
+	%p
+	%p Normal vs. Scoliotic Ribcage
+
+%p
+	Developed patient-specific (PS) computational finite-element (FE) models for scoliosis, using a semi-automated method to morph normative shape template FE models of the spine and ribcage to PS geometries.
+.panel
+	=image_tag "morphing-of-spine-and-cage.png"
+	%p
+	%p.text-center Morphing of the Spine and Thoracic cage FE Template
+
+%p
+	Developed a novel algorithm that uses Active Appearance Modeling (AAM), Point Distribution Modeling (PDM) and dual-kriging morphing methods to create 3D rib cage reconstructions from ultra low-radiation dose 2D X-rays.
+%p
+	Ongoing morphological and biomechanical studies on a pseudo-biped surrogate for the pediatric human spine.
