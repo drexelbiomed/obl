@@ -145,6 +145,7 @@ end
 # Build-specific configuration
 configure :build do
   # Ignore irrelevant directories during build
+  ignore 'images/OBL intro slides SB 112315/**'
   ignore 'bower_components/**'
 
   # For example, change the Compass output style for deployment
