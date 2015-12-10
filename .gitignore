@@ -25,3 +25,9 @@ source/bower_components/
 data/ftp.yml
 
 .ruby-version
+
+*.pptx
+
+source/images/OBL intro slides SB 112315/
+
+*.zip

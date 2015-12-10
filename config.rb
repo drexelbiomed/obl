@@ -81,6 +81,7 @@ page "index.html", :layout => "home-page"
 
 # Reload the browser automatically whenever files change
 activate :livereload
+
 activate :directory_indexes
 
 set :http_prefix, "/"
@@ -144,6 +145,7 @@ end
 # Build-specific configuration
 configure :build do
   # Ignore irrelevant directories during build
+  ignore 'images/OBL intro slides SB 112315/**'
   ignore 'bower_components/**'
 
   # For example, change the Compass output style for deployment
@@ -161,6 +163,6 @@ configure :build do
   # set :relative_links, true
 
   # Or use a different image path
-  # set :http_prefix, "#{data.ftp.path}/"
-  set :http_prefix, "/obl/"
+  set :http_prefix, "#{data.ftp.path}/"
+  # set :http_prefix, "/labs/obl/"
 end

@@ -1,25 +1,24 @@
-- title: Page 1
-  url: page-1
+- title: People
+  url: people
   sub_pages:
-    - title: Overview 1
+    - title: Overview
       url: overview
-- title: Page 2
-  url: page-2
+- title: Research
+  url: research
   sub_pages:
-    - title: Overview 2
-      url: overview
-- title: Page 3
-  url: page-3
+    - title: Pediatric Spine and Rib Cage Deformities
+      url: spine-and-rib-cage
+    - title: Child Injury Prevention Through Human Sled Experiments
+      url: child-injury-prevention
+    - title: Pediatric Bone Biomechanics
+      url: pediatric-bone-mechanics
+- title: Publications
+  url: publications
   sub_pages:
-    - title: Overview 3
-      url: overview
-- title: Page 4
-  url: page-4
+    - title: Publications List
+      url: list
+- title: Contact
+  url: contact
   sub_pages:
-    - title: Overview 4
-      url: overview
-- title: About
-  url: about
-  sub_pages:
-    - title: Overview 5
-      url: overview
+    - title: Contact Us
+      url: information
