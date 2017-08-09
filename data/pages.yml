@@ -17,8 +17,8 @@
   sub_pages:
     - title: Publications List
       url: list
-- title: Contact
-  url: contact
+- title: About
+  url: about
   sub_pages:
     - title: Contact Us
       url: information
