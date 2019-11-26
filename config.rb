@@ -145,6 +145,8 @@ end
 # Build-specific configuration
 configure :build do
   # Ignore irrelevant directories during build
+  ignore '*.psd'
+  ignore '*.zip'
   ignore 'images/OBL intro slides SB 112315/**'
   ignore 'bower_components/**'
 
